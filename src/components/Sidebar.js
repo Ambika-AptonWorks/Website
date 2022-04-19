@@ -7,12 +7,6 @@ import * as MdIcons from 'react-icons/md'
 import ReactTooltip from 'react-tooltip';
 
 function Sidebar() {
- const[text,setText]=useState(false)
-
- const handleMouse=()=>{
- 
- }
- 
   return (
     <>
     <div className='nav'>
@@ -26,7 +20,7 @@ function Sidebar() {
         <ReactTooltip />
         <li data-tip="Messages"><AiIcons.AiFillMessage/></li>
         <ReactTooltip />
-        <li data-tip="Settings"><AiIcons.AiFillSetting onMouseDown={handleMouse}/></li>
+        <li data-tip="Settings"><AiIcons.AiFillSetting/></li>
         <ReactTooltip />
         <li id="lastIcon" data-tip="Share">< MdIcons.MdSendToMobile/></li>
         <ReactTooltip />
