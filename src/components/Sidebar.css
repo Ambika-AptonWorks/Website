@@ -1,0 +1,30 @@
+body{
+    display: flex;
+}
+.nav{
+    width:30px;
+    height:35px;
+    background-color: rgb(5, 5, 98);
+    color:white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin:15px 20px 10px 20px;
+    text-align: center;
+    
+}
+ul>li{
+    list-style-type: none;
+    font-size: 20px;
+    align-items: center;
+    margin-top:20px;
+    
+}
+#lastIcon{
+    margin-top: 220px;
+}
+ul>li:hover{
+    
+    color:rgb(82, 82, 152);
+    cursor:pointer;
+}

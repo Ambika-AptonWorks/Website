@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import { toBePartiallyChecked } from '@testing-library/jest-dom/dist/matchers';
 import './App.css';
+import Sidebar from './components/Sidebar'
+import Mainpage from './components/Mainpage'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='content'>
+        <div className='conatiner-fluid'>
+          <div className='Maincontent' id="content">
+            <div className='row d-flex'>
+              <div className='col-1' id="col1" ><Sidebar /> <hr/></div>
+              <div className='col-9'  id="col1"><Mainpage /></div>
+              <div className='col-2'>col3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </>
+
+
   );
 }
 
