@@ -1,0 +1,40 @@
+const PhotosData=[
+    {
+        id:1,
+        image:'Images/img1.jpg',
+        description:"Art1",
+        price:1202
+    },
+    {
+        id:2,
+        image:'Images/img2.jpg',
+        description:"Art2",
+        price:1400
+    },
+    {
+        id:3,
+        image:'Images/img3.jpg',
+        description:"Art3",
+        price:1002
+    },
+    {
+        id:4,
+        image:'Images/img4.jpg',
+        description:"Art4",
+        price:1500
+    },
+    {
+        id:5,
+        image:'Images/img5.jpg',
+        description:"Art5",
+        price:1352
+    },
+    {
+        id:6,
+        image:'Images/img6.jpg',
+        description:"Art6",
+        price:2002
+    }
+
+]
+export default PhotosData;

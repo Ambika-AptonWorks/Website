@@ -1,6 +1,4 @@
-body{
-    display: flex;
-}
+
 .nav{
     width:30px;
     height:35px;
@@ -21,7 +19,7 @@ ul>li{
     
 }
 #lastIcon{
-    margin-top: 220px;
+    margin-top: 240px;
 }
 ul>li:hover{
     

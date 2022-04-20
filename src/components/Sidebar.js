@@ -10,10 +10,10 @@ function Sidebar() {
   return (
     <>
     <div className='nav'>
-      <h3>A</h3></div> 
+      <h4>A</h4></div> 
       <ul>
         <li data-tip="Apps" ><RiIcons.RiAppsFill  /></li>
-        <ReactTooltip afterShow={() => { setTimeout(ReactTooltip.hide(), 1000) }}  />
+        <ReactTooltip   />
         <li data-tip="Contacts"><IoIcons.IoMdContacts/></li>
         <ReactTooltip />
         <li data-tip="Notifications"><IoIcons.IoMdNotifications/></li>
