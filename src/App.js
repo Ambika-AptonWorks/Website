@@ -1,6 +1,7 @@
 import './App.css';
 import Sidebar from './components/Sidebar'
 import Mainpage from './components/Mainpage'
+import Rightbar from './components/Rightbar';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
             <div className='row'>
               <div className='col-md-1'><Sidebar /></div>
               <div className='col-md-8'> <Mainpage /></div>
-              <div className='col-md-3'>col3</div>
+              <div className='col-md-3'><Rightbar/></div>
             </div>
         </div>
       </div>

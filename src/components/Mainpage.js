@@ -9,7 +9,7 @@ function Mainpage() {
     <>
       <div id="content">
         <div className='main d-flex' >
-          <h5 className='mt-3'>Hello,Ambika</h5>
+          <h5 className='mt-3'>Hello :)</h5>
           <form className="d-flex" id="search">
             <input type="text" placeholder="Search" aria-label="Search" />
             <FaIcons.FaSearch id="search1" />
